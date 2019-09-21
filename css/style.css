@@ -1,0 +1,79 @@
+body{
+  /* make all text Lucida Grande font, with sans-serif fallback */
+  font-family: "Lucida Grande", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+h1{
+  /* h1 is 64px, centered */
+  font-size: 64px;
+  text-align: center;
+}
+
+h2{
+  /* h2 is 32 px, with black drop shadow (offset 4px horizontally, 4px vertically, 2px blur) */
+  font-size: 32px;
+  text-shadow: 4px 4px 2px black;
+}
+
+p{
+  /* p are 16px with 15px padding on top */
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+img{
+  /* images on their own line (display block), centered, 550px wide with proper aspect ratio */
+  display: block;
+  width: 550px;
+  height: auto;
+  margin: 0 auto;
+}
+
+div{
+  /* at least 100px tall with 30 px padding on all sides */
+  min-height: 100px;
+  padding: 30px;
+}
+
+#red{
+  /* background color is red, text aligned right-side */
+  background-color: red;
+  text-align: right;
+}
+
+#blue{
+  /* background color is blue, text aligned right side */
+  background-color: blue;
+  text-align: left;
+}
+
+#yellow{
+  /* background color is yellow, text is aligned right */
+  background-color: yellow;
+  text-align: right;
+}
+
+#yellow h2{
+  /* h2 text black, drop shadow is grey with same parameters as above */
+  color: black;
+  text-shadow: 4px 4px 2px grey;
+}
+
+#yellow p{
+  /* p text black */
+  color: black;
+}
+
+#green{
+  /* background color is green, text aligned left */
+  background-color: green;
+  text-align: left;
+}
+
+footer{
+  /* centered with 15px bottom padding */
+  text-align: center;
+  padding-bottom: 15px;
+}
